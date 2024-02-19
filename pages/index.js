@@ -119,7 +119,7 @@ export default function Home() {
                 {[...Array(5)].map((_, index) => (
                   <svg
                     key={index}
-                    class={classnames("w-5 h-5", index + 1 <= user.rating ? "text-yellow-300" : "text-gray-300")}
+                    className={classnames("w-5 h-5", index + 1 <= user.rating ? "text-yellow-300" : "text-gray-300")}
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="currentColor"
